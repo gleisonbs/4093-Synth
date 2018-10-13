@@ -1,0 +1,477 @@
+EESchema Schematic File Version 4
+LIBS:4093Synth-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:HEF4093B U1
+U 2 1 5BC11ECD
+P 3400 2000
+F 0 "U1" H 3400 2325 50  0000 C CNN
+F 1 "HEF4093B" H 3400 2234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 3400 2000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf" H 3400 2000 50  0001 C CNN
+	2    3400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:HEF4093B U1
+U 3 1 5BC11F30
+P 4500 2100
+F 0 "U1" H 4500 2425 50  0000 C CNN
+F 1 "HEF4093B" H 4500 2334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 4500 2100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf" H 4500 2100 50  0001 C CNN
+	3    4500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:HEF4093B U1
+U 4 1 5BC11FAB
+P 5600 2200
+F 0 "U1" H 5600 2525 50  0000 C CNN
+F 1 "HEF4093B" H 5600 2434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 5600 2200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf" H 5600 2200 50  0001 C CNN
+	4    5600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:HEF4093B U1
+U 5 1 5BC12033
+P 10150 1700
+F 0 "U1" H 10380 1746 50  0000 L CNN
+F 1 "HEF4093B" H 10380 1655 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 10150 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf" H 10150 1700 50  0001 C CNN
+	5    10150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5BC12132
+P 10150 2450
+F 0 "#PWR07" H 10150 2200 50  0001 C CNN
+F 1 "GND" H 10155 2277 50  0000 C CNN
+F 2 "" H 10150 2450 50  0001 C CNN
+F 3 "" H 10150 2450 50  0001 C CNN
+	1    10150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 2200 10150 2450
+$Comp
+L power:+5V #PWR06
+U 1 1 5BC121A7
+P 10150 900
+F 0 "#PWR06" H 10150 750 50  0001 C CNN
+F 1 "+5V" H 10165 1073 50  0000 C CNN
+F 2 "" H 10150 900 50  0001 C CNN
+F 3 "" H 10150 900 50  0001 C CNN
+	1    10150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 900  10150 1200
+$Comp
+L Device:R_POT RV1
+U 1 1 5BC12E44
+P 2600 2250
+F 0 "RV1" H 2530 2296 50  0000 R CNN
+F 1 "R_POT" H 2530 2205 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 2600 2250 50  0001 C CNN
+F 3 "~" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 5BC12EEB
+P 4800 2450
+F 0 "RV3" H 4730 2404 50  0000 R CNN
+F 1 "R_POT" H 4730 2495 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 4800 2450 50  0001 C CNN
+F 3 "~" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5BC12F2E
+P 3700 2350
+F 0 "RV2" H 3630 2304 50  0000 R CNN
+F 1 "R_POT" H 3630 2395 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 3700 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV4
+U 1 1 5BC12F84
+P 5900 2550
+F 0 "RV4" H 5830 2504 50  0000 R CNN
+F 1 "R_POT" H 5830 2595 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:HEF4093B U1
+U 1 1 5BC11E7E
+P 2300 1900
+F 0 "U1" H 2300 2225 50  0000 C CNN
+F 1 "HEF4093B" H 2300 2134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 2300 1900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf" H 2300 1900 50  0001 C CNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2250 2450 2100
+Wire Wire Line
+	2450 2100 2600 2100
+Wire Wire Line
+	2600 2100 2600 1900
+Connection ~ 2600 2100
+Wire Wire Line
+	2600 1900 3100 1900
+Connection ~ 2600 1900
+Wire Wire Line
+	3700 2000 3700 2200
+Wire Wire Line
+	3700 2200 3550 2200
+Wire Wire Line
+	3550 2200 3550 2350
+Connection ~ 3700 2200
+Wire Wire Line
+	3700 2000 4200 2000
+Connection ~ 3700 2000
+Wire Wire Line
+	4800 2100 4800 2300
+Wire Wire Line
+	4650 2450 4650 2300
+Wire Wire Line
+	4650 2300 4800 2300
+Connection ~ 4800 2300
+Wire Wire Line
+	4800 2100 5300 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	5750 2550 5750 2400
+Wire Wire Line
+	5750 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 2200
+Connection ~ 5900 2400
+$Comp
+L Device:CP1 C1
+U 1 1 5BC155A7
+P 2000 3100
+F 0 "C1" H 2115 3146 50  0000 L CNN
+F 1 "10uF" H 2115 3055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2000 3100 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+	1    2000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5BC157FA
+P 3100 3100
+F 0 "C2" H 3215 3146 50  0000 L CNN
+F 1 "2.2uF" H 3215 3055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5BC15AE5
+P 4200 3100
+F 0 "C3" H 4315 3146 50  0000 L CNN
+F 1 "100nF" H 4315 3055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4238 2950 50  0001 C CNN
+F 3 "~" H 4200 3100 50  0001 C CNN
+	1    4200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5BC164BC
+P 5300 3100
+F 0 "C4" H 5415 3146 50  0000 L CNN
+F 1 "10nF" H 5415 3055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5338 2950 50  0001 C CNN
+F 3 "~" H 5300 3100 50  0001 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5BC1684F
+P 2000 3600
+F 0 "#PWR01" H 2000 3350 50  0001 C CNN
+F 1 "GND" H 2005 3427 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5BC168A5
+P 3100 3600
+F 0 "#PWR02" H 3100 3350 50  0001 C CNN
+F 1 "GND" H 3105 3427 50  0000 C CNN
+F 2 "" H 3100 3600 50  0001 C CNN
+F 3 "" H 3100 3600 50  0001 C CNN
+	1    3100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5BC1693B
+P 4200 3600
+F 0 "#PWR03" H 4200 3350 50  0001 C CNN
+F 1 "GND" H 4205 3427 50  0000 C CNN
+F 2 "" H 4200 3600 50  0001 C CNN
+F 3 "" H 4200 3600 50  0001 C CNN
+	1    4200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5BC16E1C
+P 5300 3600
+F 0 "#PWR04" H 5300 3350 50  0001 C CNN
+F 1 "GND" H 5305 3427 50  0000 C CNN
+F 2 "" H 5300 3600 50  0001 C CNN
+F 3 "" H 5300 3600 50  0001 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3250 2000 3600
+Wire Wire Line
+	3100 3250 3100 3600
+Wire Wire Line
+	4200 3250 4200 3600
+Wire Wire Line
+	5300 3250 5300 3600
+Wire Wire Line
+	2000 2000 2000 2400
+Wire Wire Line
+	2600 2400 2000 2400
+Connection ~ 2000 2400
+Wire Wire Line
+	2000 2400 2000 2950
+Wire Wire Line
+	3100 2100 3100 2500
+Wire Wire Line
+	3700 2500 3100 2500
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2500 3100 2950
+Wire Wire Line
+	4200 2200 4200 2600
+Wire Wire Line
+	4800 2600 4200 2600
+Connection ~ 4200 2600
+Wire Wire Line
+	4200 2600 4200 2950
+Wire Wire Line
+	5300 2300 5300 2700
+Wire Wire Line
+	5900 2700 5300 2700
+Wire Wire Line
+	5300 2700 5300 2950
+Connection ~ 5300 2700
+$Comp
+L Device:C C5
+U 1 1 5BC1A673
+P 6550 3100
+F 0 "C5" H 6665 3146 50  0000 L CNN
+F 1 "1uF" H 6665 3055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6588 2950 50  0001 C CNN
+F 3 "~" H 6550 3100 50  0001 C CNN
+	1    6550 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 2200
+$Comp
+L power:GND #PWR05
+U 1 1 5BC1B691
+P 6550 3600
+F 0 "#PWR05" H 6550 3350 50  0001 C CNN
+F 1 "GND" H 6555 3427 50  0000 C CNN
+F 2 "" H 6550 3600 50  0001 C CNN
+F 3 "" H 6550 3600 50  0001 C CNN
+	1    6550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3600 6550 3250
+$Comp
+L Connector:Conn_01x01_Female SWT1
+U 1 1 5BC1EB01
+P 1700 1350
+F 0 "SWT1" H 1800 1350 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1900 1250 50  0000 C CNN
+F 2 "" H 1700 1350 50  0001 C CNN
+F 3 "~" H 1700 1350 50  0001 C CNN
+	1    1700 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female SWT2
+U 1 1 5BC1EC35
+P 2000 1350
+F 0 "SWT2" H 2100 1350 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2200 1250 50  0000 C CNN
+F 2 "" H 2000 1350 50  0001 C CNN
+F 3 "~" H 2000 1350 50  0001 C CNN
+	1    2000 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1550 2000 1800
+$Comp
+L power:+5V #PWR08
+U 1 1 5BC2107F
+P 1700 1850
+F 0 "#PWR08" H 1700 1700 50  0001 C CNN
+F 1 "+5V" H 1715 2023 50  0000 C CNN
+F 2 "" H 1700 1850 50  0001 C CNN
+F 3 "" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 1550 1700 1850
+$Comp
+L Connector:Conn_01x01_Female OUT1
+U 1 1 5BC224D9
+P 7950 2000
+F 0 "OUT1" H 8050 2000 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 8150 1900 50  0000 C CNN
+F 2 "" H 7950 2000 50  0001 C CNN
+F 3 "~" H 7950 2000 50  0001 C CNN
+	1    7950 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female GND1
+U 1 1 5BC22C51
+P 8450 2000
+F 0 "GND1" H 8550 2000 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 8650 1900 50  0000 C CNN
+F 2 "" H 8450 2000 50  0001 C CNN
+F 3 "~" H 8450 2000 50  0001 C CNN
+	1    8450 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BC23C51
+P 7200 2850
+F 0 "R1" H 7270 2896 50  0000 L CNN
+F 1 "600" H 7270 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7130 2850 50  0001 C CNN
+F 3 "~" H 7200 2850 50  0001 C CNN
+	1    7200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BC23D9A
+P 7200 3300
+F 0 "D1" V 7238 3183 50  0000 R CNN
+F 1 "LED" V 7147 3183 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 7200 3300 50  0001 C CNN
+F 3 "~" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 3150 7200 3000
+$Comp
+L power:GND #PWR09
+U 1 1 5BC2572E
+P 7200 3600
+F 0 "#PWR09" H 7200 3350 50  0001 C CNN
+F 1 "GND" H 7205 3427 50  0000 C CNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3450 7200 3600
+$Comp
+L power:GND #PWR010
+U 1 1 5BC286A8
+P 8450 3600
+F 0 "#PWR010" H 8450 3350 50  0001 C CNN
+F 1 "GND" H 8455 3427 50  0000 C CNN
+F 2 "" H 8450 3600 50  0001 C CNN
+F 3 "" H 8450 3600 50  0001 C CNN
+	1    8450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3600 8450 2200
+Wire Wire Line
+	6550 2950 6550 2200
+Wire Wire Line
+	5900 2200 6550 2200
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2200 7200 2200
+Wire Wire Line
+	7200 2700 7200 2200
+$Comp
+L Device:R_POT VOL1
+U 1 1 5BC2CCA9
+P 7950 2850
+F 0 "VOL1" H 7881 2804 50  0000 R CNN
+F 1 "100kA" H 7881 2895 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 7950 2850 50  0001 C CNN
+F 3 "~" H 7950 2850 50  0001 C CNN
+	1    7950 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 2700 7950 2200
+Wire Wire Line
+	7800 2850 7800 2200
+Wire Wire Line
+	7800 2200 7200 2200
+Connection ~ 7200 2200
+$Comp
+L power:GND #PWR011
+U 1 1 5BC2E94E
+P 7950 3600
+F 0 "#PWR011" H 7950 3350 50  0001 C CNN
+F 1 "GND" H 7955 3427 50  0000 C CNN
+F 2 "" H 7950 3600 50  0001 C CNN
+F 3 "" H 7950 3600 50  0001 C CNN
+	1    7950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3600 7950 3000
+$EndSCHEMATC
