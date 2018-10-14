@@ -448,10 +448,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 2500 2600 2400
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J5
 U 1 1 5BC4A6AB
 P 3500 2800
-F 0 "J?" V 3440 2612 50  0000 R CNN
+F 0 "J5" V 3440 2612 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 2700 2650 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 2800 50  0001 C CNN
 F 3 "~" H 3500 2800 50  0001 C CNN
@@ -459,10 +459,10 @@ F 3 "~" H 3500 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J6
 U 1 1 5BC4B577
 P 4050 2800
-F 0 "J?" V 3990 2612 50  0000 R CNN
+F 0 "J6" V 3990 2612 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 3250 2650 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4050 2800 50  0001 C CNN
 F 3 "~" H 4050 2800 50  0001 C CNN
@@ -470,10 +470,10 @@ F 3 "~" H 4050 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J7
 U 1 1 5BC4C432
 P 4600 2900
-F 0 "J?" V 4540 2712 50  0000 R CNN
+F 0 "J7" V 4540 2712 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 3800 2750 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4600 2900 50  0001 C CNN
 F 3 "~" H 4600 2900 50  0001 C CNN
@@ -481,10 +481,10 @@ F 3 "~" H 4600 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J8
 U 1 1 5BC4D2EA
 P 5150 2900
-F 0 "J?" V 5090 2712 50  0000 R CNN
+F 0 "J8" V 5090 2712 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 4350 2750 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 2900 50  0001 C CNN
 F 3 "~" H 5150 2900 50  0001 C CNN
@@ -492,10 +492,10 @@ F 3 "~" H 5150 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J9
 U 1 1 5BC4E1B3
 P 5700 3000
-F 0 "J?" V 5640 2812 50  0000 R CNN
+F 0 "J9" V 5640 2812 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 4900 2850 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 3000 50  0001 C CNN
 F 3 "~" H 5700 3000 50  0001 C CNN
@@ -503,10 +503,10 @@ F 3 "~" H 5700 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J10
 U 1 1 5BC4F06D
 P 6250 3000
-F 0 "J?" V 6190 2812 50  0000 R CNN
+F 0 "J10" V 6190 2812 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 5450 2850 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 3000 50  0001 C CNN
 F 3 "~" H 6250 3000 50  0001 C CNN
